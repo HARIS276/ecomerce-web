@@ -1,0 +1,429 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav {
+    background-color: black;
+
+    height: 60px;
+    width: 90%;
+    display: flex;
+    border-color: red;
+    border: 5px;
+    border-radius: 80px;
+    margin-left: 70px;
+}
+
+.main {
+    display: flex;
+    padding-top: 40px;
+
+}
+
+.logo {
+     color: white;
+    width: 120px;
+    height:300px;
+    margin-left: 50px;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-top:4px ;
+
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px;
+    font-size: 19px;
+    margin-left: 420px;
+    padding-bottom: 6000px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+
+
+}
+
+.menu ul li {
+    list-style: none;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.menu ul li a:hover {
+    color: red;
+    font-size: 1.33rem;
+}
+.firr{
+    display: flex;
+  
+}
+.firr h1{
+    font-size: 35px;
+    font-weight: 8000;
+    margin-left: 60px;
+    margin-top: 140px;
+    width: 500px;
+    
+}
+.firr{
+    transition: 1s;
+}
+.firr:hover{
+   
+    color: rgb(255, 255, 255);
+}
+@keyframes slideleft{
+    from {
+        transform: translateX(
+        -800px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.firr h1{
+    animation-name: slideleft ;
+    animation-duration: 2s;
+    animation-delay: 0s;
+   transform: translateX(40px);
+   animation-timing-function: ease-in;
+    animation-direction: normal;
+   
+
+}
+.text3{
+    color: rgb(255, 255, 255);
+}
+.img img{
+    margin-top: 120px;
+    margin-left: 300px;
+    width: 400px;
+}
+@keyframes rightside {
+    from {
+        transform: translateY(300px);
+    }
+    to {
+        transform: translateY(o);
+    }
+}
+.img img{
+    animation-name: rightside;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+}
+@keyframes slidele{
+    from {
+        transform: translateX(
+        -1000px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+.sec hr{
+    margin-top: 90px;
+   
+    width: 1200px;
+    background-color: black;
+    border-radius: 2px;
+    border-color: black;
+}
+.box{
+    border-color: white;
+    border-radius: 35px;
+    height: 200px;
+    width: 250px;
+    background-color: rgb(198, 198, 198);
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+    display: flex;
+    transition: 2s;
+    cursor: pointer;
+
+}
+.box:hover{
+    border-radius: 50%;
+    background-color: black;
+}
+
+
+
+
+.box img{
+   padding-left: 30px;
+}
+@keyframes slideright{
+    from {
+        transform: translateX(500px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+.box img{
+    animation-name: slideright;
+    animation-timing-function: ease-in;
+    animation-duration: 6s;
+   
+}
+.con h1{
+ margin-left: 50px;
+    padding-top: 100px;
+    font-size: 50px;
+}
+@keyframes xx {
+    from{
+       opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        scale: 1;
+        opacity: 1;
+    }
+}
+.con h1{
+    animation: xx linear;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-timeline: view();
+    animation-range: entry 20% cover 50%;
+    
+   
+
+
+}
+.con h1:hover{
+   
+    color: rgb(255, 255, 255);
+}
+@keyframes appear{
+    from{
+        opacity: o;
+        scale: 0.5 ;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.box img{
+    animation: appear linear;
+   animation-timeline: view();
+   animation-duration: 5s;
+   animation-duration: entry 10% cover 10%;
+}
+.footer{
+    height:150px;
+    background-color: black;
+    color: white;
+    width: 1250px;
+    margin-left:50px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+.footer p{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 8px;
+    transition: 1s;
+}
+@keyframes para{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.footer p{
+    animation-name: para;
+    
+    animation-timing-function: linear;
+    animation-timeline: view();
+    animation-direction: normal;
+    animation-range: entry 0% cover 40%;
+}
+
+.conn{
+    margin-left: 50px;
+    padding-top: 90px;
+    font-size: 25px;
+}
+.boxsec{
+    border-color: white;
+    border-radius: 35px;
+    height: 200px;
+    width: 250px;
+    background-color: rgb(198, 198, 198);
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+    display: flex;
+    transition: 2s;
+    cursor: pointer;
+}
+.fourth img{
+    height: 160px;
+    padding-left: 45px;
+    padding-top: 25px;
+}
+@keyframes app{
+    from{
+        opacity: o;
+        scale: 0.5 ;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.fourth img{
+    animation: app linear;
+   animation-timeline: view();
+   animation-duration: 5s;
+   animation-duration: entry 10% cover 10%;
+}@keyframes xxy {
+    from{
+       opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        scale: 1;
+        opacity: 1;
+    }
+}
+.conn h1{
+    animation: xxy linear;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+.conn h1:hover{
+    color: white;
+}
+.foot{
+    height:150px;
+    background-color: black;
+    color: white;
+    width: 1250px;
+    margin-left:50px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+.foot p{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 6px;
+    transition: 1s;
+    
+}
+@keyframes par{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.foot p{
+    animation-name: par;
+    animation-timing-function: linear;
+    animation-timeline: view();
+    animation-direction: normal;
+    animation-range: entry 0% cover 20%;
+}
+.fifth{
+    display: flex;
+}
+.bo1{
+    background-color: white;
+    height: 280px;
+    width: 270px;
+    margin-left: 60px;
+    margin-top: 80px;
+    border-radius:50px;
+}
+.bo2{
+    background-color: white;
+    height: 280px;
+    width: 270px;
+    margin-left: 60px;
+    margin-top: 80px;
+    border-radius:50px;
+}
+.bo3{
+    background-color: white;
+    height: 280px;
+    width: 270px;
+    margin-left: 60px;
+    margin-top: 80px;
+    border-radius:50px;
+}
+.bo4{
+    background-color: white;
+    height: 280px;
+    width: 270px;
+    margin-left: 60px;
+    margin-top: 80px;
+        border-radius:50px;
+}
+.bo1 img{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.bo2 img{
+    padding-left: 40px;
+    padding-top: 25px;
+}
+.bo3 img{
+    padding-top: 30px;
+    width: 210px;
+    height: 220px;
+    padding-left: 30px;
+}
+.bo4 img{
+    padding-top: 25px;
+    padding-left: 30px;
+}
+.bo1{
+    animation-name: app;
+    animation-timeline: view();
+    animation-range: entry 0px cover 90%;
+}
+.bo2{
+    animation-name: app;
+    animation-timeline: view();
+    animation-range: entry 0px cover 90%;
+}
+.bo3{
+    animation-name: app;
+    animation-timeline: view();
+    animation-range: entry 0px cover 90%;
+}
+.bo4{
+    animation-name: app;
+    animation-timeline: view();
+    animation-range: entry 0px cover 90%;
+}
